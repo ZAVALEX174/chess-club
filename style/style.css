@@ -618,7 +618,7 @@ body {
 .stages__buttons {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   position: relative;
   pointer-events: none;
   opacity: 0;
