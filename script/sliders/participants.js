@@ -166,11 +166,6 @@ const nextCardGenerate = () => {
   } else {
     showNumberSlide.textContent = countSlide;    
   }
-
-  // if(countSlide >= cardList.length + 1) {
-  //   showNumberSlide.textContent = showSlide;
-  //   console.log('hfg');    
-  // }
 };
 
 const prevCardGenerate = (w = false) => {

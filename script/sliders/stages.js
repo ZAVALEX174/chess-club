@@ -42,12 +42,4 @@ document.addEventListener('DOMContentLoaded', () => {
   prevBtn.addEventListener('click', () => goToSlide(currentSlide - 1));
   nextBtn.addEventListener('click', () => goToSlide(currentSlide + 1));
 
-  // // Автопрокрутка (опционально)
-  // let autoSlide = setInterval(() => goToSlide(currentSlide + 1), 5000);
-  //
-  // // Останавливаем автопрокрутку при наведении
-  // sliderContainer.addEventListener('mouseenter', () => clearInterval(autoSlide));
-  // sliderContainer.addEventListener('mouseleave', () => {
-  //   autoSlide = setInterval(() => goToSlide(currentSlide + 1), 5000);
-  // });
 });

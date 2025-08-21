@@ -756,6 +756,7 @@ body {
   max-width: 151px;
   align-items: center;
   justify-content: space-between;
+  z-index: 10;
 }
 
 .participants__slid-name {
