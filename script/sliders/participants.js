@@ -85,7 +85,7 @@ const createSliderCards = () => {
 
   const img = document.createElement('img');
   img.alt = '';
-  img.src = '../images/' + cardList[activCard];
+  img.src = './images/' + cardList[activCard];
   img.classList.add('participants__slid-img');
 
   const nameCard = document.createElement('h3');
@@ -129,7 +129,7 @@ const nextCardGenerate = () => {
 
   const img = document.createElement('img');
   img.alt = '';
-  img.src = '../images/' + cardList[nextCard];
+  img.src = './images/' + cardList[nextCard];
   img.classList.add('participants__slid-img');
 
   const nameCard = document.createElement('h3');
@@ -150,9 +150,7 @@ const nextCardGenerate = () => {
   sliderPlase.append(item); 
 
   let showNumberSlide = document.querySelector('.participants__slider-pagination-left');
-  let countSlide = showSlide + (nextCard - 1);
-  console.log('countSlide = showSlide + (nextCard - 1)', countSlide);
-  
+  let countSlide = showSlide + (nextCard - 1);  
 
   if(nextCard == 0) {
     countSlide = cardList.length;
@@ -187,7 +185,7 @@ const prevCardGenerate = (w = false) => {
 
   const img = document.createElement('img');
   img.alt = '';
-  img.src = '../images/' + cardList[prevCard];
+  img.src = './images/' + cardList[prevCard];
   img.classList.add('participants__slid-img');
 
   const nameCard = document.createElement('h3');
