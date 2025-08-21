@@ -25,13 +25,18 @@
 ```
 chess-club/
 ├── index.html
+├── fonts/
+│   └── (все шрифты)
 ├── styles/
 │   ├── normalize.css
 │   └── style.css
 ├── images/
 │   └── (все изображения)
 └── scripts/
-    └── script.js
+    ├── sliders/
+    │   ├── part.js
+    │   └── srages.js
+    └── marquee.js
 ```
 
 ## Установка и запуск
